@@ -296,6 +296,12 @@ nav ul li:nth-child(3) a {
   row-gap: 48px;
 }
 
+.genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .genre:nth-child(-1n + 6) {
   grid-column: span 4;
 }
@@ -321,7 +327,7 @@ nav ul li:nth-child(3) a {
   background: #fff;
   font-size: 1.15rem;
   font-weight: 600;
-  padding: 3px 4px 3px 4px;
+  padding: 3px 8px 3px 4px;
   gap: 10px;
   cursor: pointer;
   transition: border-color 0.5s, color 0.5s;
@@ -332,10 +338,9 @@ nav ul li:nth-child(3) a {
   color: var(--primary-color);
 }
 
-.genre p{
-    white-space: nowrap; 
+.genre p {
+  white-space: nowrap;
 }
-
 
 /* FOOTER SECTION */
 
