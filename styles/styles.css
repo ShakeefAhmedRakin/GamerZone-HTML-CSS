@@ -1,4 +1,3 @@
-/* DEFAULT STYLES */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
 :root {
@@ -7,7 +6,7 @@
   --title-grad: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   --dark-text-color: #534c64;
   --main-font-style: Work Sans;
-  --desktop-horizontal-padding: 340px;
+  --desktop-horizontal-padding: 240px;
 }
 
 * {
@@ -249,15 +248,29 @@ nav ul li:nth-child(3) a {
 
 /* PLAY SECTION  */
 
-.play-section{
-    margin-top: 120px;
-    padding: 0 var(--desktop-horizontal-padding);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.play-section {
+  margin-top: 120px;
+  padding: 0 var(--desktop-horizontal-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.play-content p{
-    max-width: 483px;
-    margin-top: 24px;
+.play-content p {
+  max-width: 483px;
+  margin-top: 24px;
+}
+
+.play-img {
+  position: relative;
+}
+
+.play-img #img-1 {
+  width: 710px;
+}
+
+.play-img #img-2 {
+  position: absolute;
+  bottom: -115px;
+  right: -140px;
 }
