@@ -278,6 +278,47 @@ nav ul li:nth-child(3) a {
   right: -140px;
 }
 
+/* CATEGORY SECTION */
+
+.category-section {
+  padding: 120px var(--horizontal-padding);
+  background: rgba(255, 66, 165, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-container {
+  display: grid;
+  gap: 28px;
+  grid-template-areas:
+    "genre genre genre genre genre"
+    "genre genre genre genre genre ";
+}
+
+.game-container button {
+  grid-area: "genre";
+}
+
+.game-container button {
+  display: flex;
+  align-items: center;
+  border-radius: 55px;
+  border: 2px solid rgba(255, 66, 165, 0.03);
+  background: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 3px 4px 3px 4px;
+  gap: 10px;
+  cursor: pointer;
+  transition: border-color 0.5s, color 0.5s;
+}
+
+.game-container button:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
 /* FOOTER SECTION */
 
 footer {
@@ -347,8 +388,8 @@ footer {
   text-decoration: none;
 }
 
-#copyright{
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 1rem;
-    font-weight: 500;
+#copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
 }
