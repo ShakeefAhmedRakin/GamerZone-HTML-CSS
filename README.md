@@ -29,7 +29,8 @@ Explore the live demo of the project [here](https://shakeefahmedrakin.github.io/
 - A "Play Game Anywhere" section with an image and text. (Select one of the two sections on Figma)
 - A category section showcasing numerous games with genre buttons in a specific layout.
 - A footer section containing a logo, social media links, and copyright information.
-*Another optional section is provided on Figma which was ungraded.
+
+*Another optional section was provided on Figma which was ungraded*
 
 ## Installation
 
